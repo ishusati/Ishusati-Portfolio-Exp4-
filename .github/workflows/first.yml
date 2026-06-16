@@ -1,0 +1,13 @@
+name: First Action
+
+on:
+  push:
+
+jobs:
+  hello:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello
+        run: echo "GitHub Action Started"
